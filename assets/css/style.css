@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  border-bottom: 7px solid #B0CF2B;
+  padding: 14px 50px;
+}
+
+header #logo {
+  color: #F6DE32;
+  font-size: 40px;
+  font-family: 'Press Start 2P', sans-serif;
+  letter-spacing: -.2px;
+  font-weight: 400;
+  text-shadow: 4px 3px 0 #B0CF2B;
+  margin: 0;
+}
+
+header nav {
+  text-align: right;
+}
+
+header nav a {
+  display: inline-flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Fira Code', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+header nav a::before {
+  content: '';
+  background-color: #F6DE32;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
