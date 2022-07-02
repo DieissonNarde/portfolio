@@ -8,3 +8,11 @@
 .section .main-title {
   margin-bottom: 60px;
 }
+
+.section.bg-yellow {
+  background-color: #f6de32;
+}
+
+.section.bg-white {
+  background-color: #fff;
+}
