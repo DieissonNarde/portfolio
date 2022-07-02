@@ -1,0 +1,14 @@
+.card-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  width: 240px;
+  height: 240px;
+  box-shadow: 5px 5px 0 #b0cf2b;
+}
+
+.card-project .logo {
+  width: auto;
+  height: 60px;
+}
