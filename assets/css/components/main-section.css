@@ -1,19 +1,19 @@
-.section {
+.main-section {
   background-color: #000;
   padding-top: 50px;
   padding-bottom: 100px;
   border-bottom: 7px solid #f6de32;
 }
 
-.section .main-title {
+.main-section .main-title {
   margin-bottom: 60px;
 }
 
-.section.bg-yellow {
+.main-section.bg-yellow {
   background-color: #ddc82d;
   border-bottom: 7px solid #54a467;
 }
 
-.section.bg-green {
+.main-section.bg-green {
   background-color: #54a467;
 }
