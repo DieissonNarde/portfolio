@@ -1,0 +1,16 @@
+.main-button {
+  display: inline-block;
+  background-color: #f6de32;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 5px 5px 0 #b0cf2b;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+.main-button:hover {
+  background-color: #ddc82d;
+  cursor: pointer;
+  transition: background-color ease-in 0.2s;
+}
