@@ -1,16 +1,16 @@
-.action {
+.main-action {
   display: inline-flex;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
   margin-right: 30px;
 }
 
-.action::before {
+.main-action::before {
   content: '';
-  background-color: #F6DE32;
+  background-color: #f6de32;
   width: 10px;
   height: 10px;
   margin-right: 10px;
