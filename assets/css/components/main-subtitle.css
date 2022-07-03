@@ -1,8 +1,8 @@
-.subtitle {
+.main-subtitle {
   font-size: 30px;
   font-family: 'Press Start 2P', sans-serif;
   font-weight: 400;
   line-height: 30px;
-  text-shadow: 4px 3px 0 #B0CF2B;
-  color: #FFF;
+  text-shadow: 4px 3px 0 #b0cf2b;
+  color: #fff;
 }
