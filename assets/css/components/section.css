@@ -10,9 +10,10 @@
 }
 
 .section.bg-yellow {
-  background-color: #f6de32;
+  background-color: #ddc82d;
+  border-bottom: 7px solid #54a467;
 }
 
-.section.bg-white {
-  background-color: #fff;
+.section.bg-green {
+  background-color: #54a467;
 }
