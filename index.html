@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dieisson Narde | Portfólio</title>
+    <title>Dieisson Narde Dev</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,6 +28,10 @@
     <link rel="stylesheet" href="./assets/css/components/progress-bar.css" />
     <link rel="stylesheet" href="./assets/css/components/wrapper-card.css" />
     <link rel="stylesheet" href="./assets/css/components/card-project.css" />
+    <link rel="stylesheet" href="./assets/css/components/main-description.css" />
+    <link rel="stylesheet" href="./assets/css/components/button-arrow.css" />
+    <link rel="stylesheet" href="./assets/css/components/node-card.css" />
+    <link rel="stylesheet" href="./assets/css/components/main-carousel.css" />
   </head>
   <body>
     <header class="main-header">
@@ -66,7 +70,7 @@
             alt="Logo do HTML5"
           />
           <div class="right">
-            <h3 class="title">HTML</h3>
+            <h3 class="skill-title">HTML</h3>
 
             <progress class="progress-bar" max="100" value="70">70%</progress>
           </div>
@@ -79,7 +83,7 @@
             alt="Logo do CSS3"
           />
           <div class="right">
-            <h3 class="title">CSS</h3>
+            <h3 class="skill-title">CSS</h3>
 
             <progress class="progress-bar" max="100" value="70">70%</progress>
           </div>
@@ -92,7 +96,7 @@
             alt="Logo do JavaScript"
           />
           <div class="right">
-            <h3 class="title">JavaScript</h3>
+            <h3 class="skill-title">JavaScript</h3>
 
             <progress class="progress-bar" max="100" value="70">70%</progress>
           </div>
@@ -105,7 +109,7 @@
             alt="Logo do React JS"
           />
           <div class="right">
-            <h3 class="title">React</h3>
+            <h3 class="skill-title">React</h3>
 
             <progress class="progress-bar" max="100" value="70">70%</progress>
           </div>
@@ -118,7 +122,7 @@
             alt="Logo do Next JS"
           />
           <div class="right">
-            <h3 class="title">NextJS</h3>
+            <h3 class="skill-title">NextJS</h3>
 
             <progress class="progress-bar" max="100" value="70">70%</progress>
           </div>
@@ -131,7 +135,7 @@
             alt="Logo do Node JS"
           />
           <div class="right">
-            <h3 class="title">NodeJS</h3>
+            <h3 class="skill-title">NodeJS</h3>
 
             <progress class="progress-bar" max="100" value="70">70%</progress>
           </div>
@@ -162,5 +166,60 @@
         </a>
       </div>
     </section>
+
+    <section class="main-section">
+      <h2 class="main-title -second">Sobre</h2>
+
+      <section class="main-carousel">
+        <button class="button-arrow -left"><span class="content">Voltar</span></button>
+      
+        <div class="items">
+          <div class="elements">
+            <figure class="node-card">
+              <figcaption class="title">2019</figcaption>
+              <div class="card-logo">
+                <img src="img/logo.png" alt="Logo da">
+              </div>
+            </figure>
+      
+            <figure class="node-card -first">
+              <figcaption class="title">2019</figcaption>
+              <div class="card-logo">
+                <img src="img/logo.png" alt="Logo da">
+              </div>
+            </figure>
+      
+            <figure class="node-card">
+              <figcaption class="title">2019</figcaption>
+              <div class="card-logo">
+                <img src="img/logo.png" alt="Logo da">
+              </div>
+            </figure>
+      
+            <figure class="node-card -first">
+              <figcaption class="title">2019</figcaption>
+              <div class="card-logo">
+                <img src="img/logo.png" alt="Logo da">
+              </div>
+            </figure>
+      
+            <figure class="node-card">
+              <figcaption class="title">2019</figcaption>
+              <div class="card-logo">
+                <img src="img/logo.png" alt="Logo da">
+              </div>
+            </figure>
+          </div>
+        </div>
+        
+        <button class="button-arrow -right"><span class="content">Avançar</span></button>
+      </section>
+
+      <p class="main-description">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </section>
+    
+    <script src="assets/js/components/main-carousel.js"></script>
   </body>
 </html>
