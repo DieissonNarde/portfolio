@@ -13,8 +13,13 @@
   background-color: #ddc82d;
   cursor: pointer;
   transition: background-color ease-in 0.2s;
+  transform: scale(1.02);
 }
 
 .main-button.-full {
   width: 100%;
+}
+
+.main-button.-full:hover {
+  transform: scale(1.01);
 }
