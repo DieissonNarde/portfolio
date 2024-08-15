@@ -14,3 +14,8 @@
 .main-form .main-input.-textarea {
     margin-bottom: 40px;
 }
+
+.main-form .form-field {
+    width: 60%;
+    margin: 0 auto;
+}
